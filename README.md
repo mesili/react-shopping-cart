@@ -6,6 +6,10 @@ This is far from a perfect implementation so bear with me.
 
 Created with `create-react-app`.
 
+### Demo
+
+- https://mesili.github.io/cart
+
 ### Details 
 
 - State management : Redux ( + redux-thunk) 
