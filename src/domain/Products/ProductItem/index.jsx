@@ -36,7 +36,7 @@ export const ProductItem = ({
 )
 
 ProductItem.propTypes = {
-    id: PropTypes.string.isRequired,
+    id: PropTypes.number.isRequired,
     title: PropTypes.string.isRequired,
     price: PropTypes.number.isRequired,
     picture: PropTypes.string.isRequired,

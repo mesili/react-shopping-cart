@@ -68,7 +68,7 @@ export const CartButton = ({productId}) => {
 }
 
 CartButton.propTypes = {
-    productId: PropTypes.string.isRequired,
+    productId: PropTypes.number.isRequired,
 }
 
 export default CartButton
