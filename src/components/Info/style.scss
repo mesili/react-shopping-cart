@@ -1,0 +1,7 @@
+.info {
+    @import "src/theme/_variables";
+    background:$info-color;
+    color:#FFF;
+    padding:1em 2em;
+    border-radius:3px;
+}

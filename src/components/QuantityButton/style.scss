@@ -1,0 +1,46 @@
+.quantity-button {
+    @import "src/theme/_breakpoint";
+
+    display:inline-flex;
+    align-items:center;
+    justify-content:center;
+
+    button {
+        height:2rem;
+        width:2rem;
+
+        /* Force margin & padding to 0 
+         * to be sure icon is centered 
+         */
+        svg {
+            padding:0;
+            margin:0;
+        }
+    }
+
+    @include breakpoint(sm) {
+        & > * + * {
+            margin-left:.5rem;
+        }
+    }
+
+    @include breakpoint(xs) {
+        flex-direction:column-reverse;
+        justify-content:center;
+        align-items:Center;
+
+        button {
+            height:1.5rem;
+            width:1.5rem;
+            font-size:.5em;
+            display:flex;
+            justify-content:center;
+            position:relative;
+            svg {
+                position:absolute;
+                
+            }
+        }
+    }
+
+}

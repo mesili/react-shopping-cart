@@ -1,0 +1,41 @@
+.cart-price {
+
+    dl {
+        display:flex;
+        justify-content:space-between;
+        margin-bottom:5px;
+
+        dt {
+            width:40%;
+        }
+
+        dd {
+            width:60%;
+            margin:0;
+            text-align:right;
+        }
+
+        &.total {
+            border-top:1px solid #CCC;
+            padding-top:10px;
+            margin-top:10px;
+            font-weight:bold;
+            & > dd {
+                color:#CC0000;
+            }
+        }
+
+    }
+
+    button.checkout-button {
+        margin-top:20px;
+        background:#ff4747;
+        line-height:2em;
+        color:#FFF;
+        border:none;
+        &:hover {
+            background:darken(#ff4747, 20%);
+        }
+    }
+
+}

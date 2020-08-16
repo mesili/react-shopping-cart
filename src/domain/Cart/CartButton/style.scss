@@ -1,0 +1,14 @@
+.add-to-cart {
+    @import "src/theme/_variables";
+
+    svg {
+        margin-right:.5em;
+    }
+
+    &.active {
+        border-color:$accent-color;
+        background-color:rgba($accent-color,.8);
+        color:#FFF;
+    }
+}
+

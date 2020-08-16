@@ -1,0 +1,91 @@
+export default [
+    {
+        id: 1,
+        title: "Product 1",
+        coverImage: "https://placehold.it/400x400",
+        price: 56,
+        score: 200,
+    },
+    {
+        id: 2,
+        title: "Product 2",
+        coverImage: "https://placehold.it/400x400",
+        price: 32,
+        score: 300,
+
+    },
+    {
+        id: 3,
+        title: "Product 3",
+        coverImage: "https://placehold.it/400x400",
+        price: 24,
+        score: 350,
+
+    },
+    {
+        id: 4,
+        title: "Product 4",
+        coverImage: "https://placehold.it/400x400",
+        price: 900,
+        score: 120,
+        availableCoupon: false,
+    },
+    {
+        id: 5,
+        title: "Product 5",
+        coverImage: "https://placehold.it/400x400",
+        price: 230,
+        score: 640,
+    },
+    {
+        id: 6,
+        title: "Product 6",
+        coverImage: "https://placehold.it/400x400",
+        price: 320,
+        score: 200,
+    },
+    {
+        id: 7,
+        title: "Product 7",
+        coverImage: "https://placehold.it/400x400",
+        price: 180,
+        score: 190,
+        availableCoupon: false,
+    },
+    {
+        id: 8,
+        title: "Product 8",
+        coverImage: "https://placehold.it/400x400",
+        price: 123,
+        score: 453,
+    },
+    {
+        id: 9,
+        title: "Product 9",
+        coverImage: "https://placehold.it/400x400",
+        price: 345,
+        score: 300,
+        availableCoupon: false,
+    },
+    {
+        id: 10,
+        title: "Product 10",
+        coverImage: "https://placehold.it/400x400",
+        price: 50,
+        score: 300,
+    },
+    {
+        id: 11,
+        title: "Product 11",
+        coverImage: "https://placehold.it/400x400",
+        price: 564,
+        score: 150,
+    },
+    {
+        id: 12,
+        title: "Product 12",
+        coverImage: "https://placehold.it/400x400",
+        price: 23,
+        score: 220,
+    }
+];

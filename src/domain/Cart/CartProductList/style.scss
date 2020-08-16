@@ -1,0 +1,96 @@
+.cart-product-list {
+    @import "src/theme/_breakpoint";
+    @import "src/theme/_variables";
+
+    .cart-product {
+        display:flex;
+        align-items:center;
+        justify-content:space-between;
+        margin:0 -1em;
+        padding:.5em 1em;
+
+        &:hover {
+            background:rgba(#000,.05);
+        }
+
+        &+.cart-product, 
+        &+.cart-full {
+            border-top:1px solid #CCC;
+            padding-top:1em;
+        }
+
+        .checkbox-container {
+            flex-basis:20px;
+            text-align:center;
+            margin:0 .5em;
+        }
+
+        .picture {
+            flex-basis:120px;
+            img {
+                height:80px;
+                width:120px;
+                object-fit:cover;
+                border-radius:5px;
+            }
+
+            @include breakpoint(xs) {
+                flex-basis:60px;
+                img {
+                    height:40px;
+                    width:60px;
+                }
+
+            }
+        }
+
+        .description {
+            flex-basis:100%;
+            display:flex;
+            align-items:center;
+            flex-wrap:wrap;
+            height:100%;
+            padding:0 1em;
+
+
+            .title {
+                height:100%;
+                flex-basis:100%;
+            }
+
+            .remove {
+                width:100px;
+            }
+
+            .price {
+                width:calc(100% - 100px - 2em);
+                padding:1em;
+                height:100%;
+                display:flex;
+                flex-wrap:wrap;
+                align-items:flex-start;
+
+                span {
+                    border-radius:20px;
+                    background:#777;
+                    color:#FFF;
+                    font-size:.8em;
+                    margin-left:2em;
+                    padding:.4em;
+                }
+            }
+        }
+
+        .quantity {
+            flex-basis:auto;
+        }
+
+
+    }
+
+
+    .cart-full {
+        margin-top:2em;
+    }
+
+}

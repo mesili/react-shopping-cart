@@ -1,0 +1,23 @@
+.cart-home {
+
+    .recap {
+        
+        display: grid;
+        grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+        grid-column-gap: 16px;
+
+        & > *:first-child {
+            grid-column:span 2;
+        }
+
+        /* Note that .cart-price is from CartPrice element */
+        .cart-price,
+        .products { 
+            border:1px solid #CCC;
+            border-radius:3px;
+            padding:1em;
+        }
+
+    }
+
+}

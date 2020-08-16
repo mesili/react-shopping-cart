@@ -1,0 +1,44 @@
+.coupon-selector {
+
+    list-style-type:none;
+    padding:0;
+    margin:20px 0;
+
+    li + li {
+        padding-top:5px;
+    }
+
+    button {
+        width:100%;
+        background:transparent;
+        border:1px solid rgba(#000,.2);
+        text-align:left;
+        padding:10px;
+        color:#777;
+        display:flex;
+        align-items:center;
+
+        &.active,
+        &:active{
+            background:rgba(#FF4747, .2);
+            border:1px solid rgba(#FF4747,.5);
+
+            svg {
+                color:#FF4747;
+
+                &:nth-child(2) {
+                    color:#777;
+                }
+            }
+        }
+
+        svg {
+            margin-right:10px;
+        }
+
+
+
+
+    }
+
+}
